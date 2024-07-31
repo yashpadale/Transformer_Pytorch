@@ -11,3 +11,13 @@ Prediction: Generate predictions or perform text generation tasks.
 
 ## Installation
              git clone https://github.com/yashpadale/Transformer_Pytorch
+             cd Transformer_PyTorch
+             pip install requirements.txt
+
+# Usage
+### Preparing Your Data
+Create a train.txt File:
+Place your training data in train.txt. Each line should represent a training example.
+
+## Configure Hyperparameters:
+Edit init.py to set your desired hyperparameters, such as learning rate, batch size, number of epochs, etc.
