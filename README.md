@@ -11,7 +11,9 @@ Prediction: Generate predictions or perform text generation tasks.
 
 ## Installation
              git clone https://github.com/yashpadale/Transformer_Pytorch
+## Enter the directory
              cd Transformer_PyTorch
+## Install the dependancies
              pip install requirements.txt
 
 # Usage
