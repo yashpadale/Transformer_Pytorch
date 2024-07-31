@@ -1,0 +1,10 @@
+<start> Summarize the key points from the article about the impact of technology on education. <end> <start> - This is a prompt to write a summary .<end>
+<start> Summarize the main points discussed in the documentary film Food, Inc. <end> <start> - This is a prompt to write a summary .<end>
+<start> Summarize the main ideas discussed in the TED talk about the future of space exploration. <end> <start> - This is a prompt to write a summary .<end>
+<start> Summarize the key points of the article discussing the impact of climate change on biodiversity. <end> <start> - This is a prompt to write a summary .<end>
+<start> Summarize the plot of the novel "1984" by George Orwell. <end> <start> - This is a prompt to write a summary .<end>
+<start> Summarize the key points from the article about the role of AI in cybersecurity. <end> <start> - This is a prompt to write a summary .<end>
+<start> Summarize the key points from the book on artificial intelligence. <end> <start> - This is a prompt to write a summary .<end>
+<start> Give a brief summary of the article discussing the benefits of meditation. <end> <start> - This is a prompt to write a summary .<end>
+<start> Provide an overview of the historical events leading to World War II. <end> <start> - This is a prompt to write a summary .<end>
+<start> Summarize the main arguments presented in the debate on climate change policies. <end> <start> - This is a prompt to write a summary .<end>
