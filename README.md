@@ -13,6 +13,7 @@ Prediction: Generate predictions or perform text generation tasks.
              git clone https://github.com/yashpadale/Transformer_Pytorch
 ## Enter the directory
              cd Transformer_PyTorch
+             cd LanguageModel
 ## Install the dependancies
              pip install requirements.txt
 
