@@ -315,4 +315,4 @@ class LanguageModel():
         file_path = file_path + '.pt'
         self.transformer = torch.load(file_path)
         print(f"Model loaded from {file_path}")
-
+        return self
