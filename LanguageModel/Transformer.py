@@ -246,7 +246,7 @@ def process(query,maxlen,dictionary):
         order = return_order(dict_=dictionary, content=query)
         return order
 
-def extract_between_tokens(text, start_token="<start>", end_token="<end>"):
+def extract_between_tokens(text, start_token="<start>", end_token="<end>", space_token="<space>"):
     start_pos = text.find(start_token)
     end_pos = text.find(end_token, start_pos)
 
@@ -257,8 +257,13 @@ def extract_between_tokens(text, start_token="<start>", end_token="<end>"):
     # Include the end token in the result, so add its length to end_pos
     end_pos += len(end_token)
 
-    # Extract and return the substring
-    return text[start_pos:end_pos]
+    # Extract the substring
+    substring = text[start_pos:end_pos]
+
+    # Remove the start_token, space_token, and end_token from the substring
+    cleaned_text = substring.replace(start_token, "").replace(space_token, "").replace(end_token, "")
+
+    return cleaned_text.strip()
 
 from utils import *
 class LanguageModel():
